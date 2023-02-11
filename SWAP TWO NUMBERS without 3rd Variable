@@ -1,0 +1,20 @@
+package practiceSpace;
+import java.util.Scanner;
+public class SwapWithWithout3rdvariable {
+
+	public static void main(String[] args) {
+		System.out.println("Enter two numbers");
+    Scanner in=new Scanner(System.in);
+		
+		int x=in.nextInt();
+		int y=in.nextInt();
+		
+		System.out.println("before swap x="+x+"\n y="+y);
+				
+		x=x+y;
+		y=x-y;
+		x=x-y;
+		
+		System.out.println("after swap x="+x+"\n y="+y);
+	}
+}
